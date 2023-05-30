@@ -1,22 +1,21 @@
-body {
-    background-color: yellow;
-    border: 3px solid black;
-    margin: 10px;
-    padding: 20px;
-    background-image: linear-gradient(left to right, red, white);
-}
-
-img {
-    border: 2px solid black;
-    height: 200px;
-    width: 200px;
-    background-image: linear-gradient(red blue);
-}
-
-.div {
-    background-image: linear-gradient(red, white);
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    text-align: center;
-}
+    body {
+        background-color: yellow;
+        border: 3px solid black;
+        margin: 10px;
+        /* padding: 20px; */
+        background-image: linear-gradient(left to right, red, white);
+    }
+    
+    img {
+        border: 2px solid black;
+        background-image: linear-gradient(red blue);
+    }
+    
+    #grad {
+        background-image: linear-gradient( to right, red, white);
+        border: 1px solid black;
+    }
+    
+    .p {
+        color: yellow;
+    }

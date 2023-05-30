@@ -1,0 +1,7 @@
+div {
+    text-shadow: 4px 4px 4px rgb(2, 24, 21);
+    width: 20vw;
+    height: 20vh;
+    margin: 20px;
+    box-shadow: 3px 3px 3px 4px rgba(234, 24, 35, 0.8);
+}
