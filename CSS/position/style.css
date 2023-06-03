@@ -1,0 +1,24 @@
+/* h1 {
+    position: static;
+} */
+
+.wrapper {
+    border: 1px solid green;
+    height: 400vh;
+    width: 400vw;
+    background-color: yellow;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: rgb(116, 32, 185);
+    border: 1px solid black;
+}
+
+#box1 {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
