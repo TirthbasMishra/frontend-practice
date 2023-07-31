@@ -1,0 +1,35 @@
+    .container {
+        height: 700px;
+        border: 4px solid black;
+        background-color: yellow;
+        /* padding: 20px; */
+        display: grid;
+        /* grid-gap: 3px; */
+        /* grid-template-rows: 30px 150px 400px 30px;
+        grid-template-columns: 400px;
+        grid-template-areas: "hd" "side" "main" "ft"; */
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 600px;
+        grid-template-areas: "hd hd hd hd hd hd hd hd" "side side side main main main main main" "ft ft ft ft ft ft ft  ft";
+    }
+    
+    .box {
+        border: 3px solid white;
+        background-color: palevioletred;
+    }
+    
+    #header {
+        grid-area: ft;
+    }
+    
+    #footer {
+        grid-area: hd;
+    }
+    
+    #sidebar {
+        grid-area: side;
+    }
+    
+    #content {
+        grid-area: main;
+    }
